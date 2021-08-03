@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoCompra.Api", "GestaoCompra.Api\GestaoCompra.Api.csproj", "{5A055174-FD4C-40D4-89A1-812DE27B0521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoCompra.Api", "GestaoCompra.Api\GestaoCompra.Api.csproj", "{5A055174-FD4C-40D4-89A1-812DE27B0521}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoCompra.Core", "GestaoCompra.Business\GestaoCompra.Core.csproj", "{24698FB5-2028-4C0C-82AF-37BCD01E931D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoCompra.Infra", "GestaoCompra.Infra\GestaoCompra.Infra.csproj", "{7F2A4BA9-4DC3-489F-BA5A-C12B19CD673E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoCompra.Infra", "GestaoCompra.Infra\GestaoCompra.Infra.csproj", "{7F2A4BA9-4DC3-489F-BA5A-C12B19CD673E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoCompra.Application", "GestaoCompra.Application\GestaoCompra.Application.csproj", "{0D715605-644E-458F-9D91-A89319630813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoCompra.Application", "GestaoCompra.Application\GestaoCompra.Application.csproj", "{0D715605-644E-458F-9D91-A89319630813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoCompra.Core", "GestaoCompra.Core\GestaoCompra.Core.csproj", "{6A708E2D-FFB5-4992-9FF7-5B14E2524273}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{5A055174-FD4C-40D4-89A1-812DE27B0521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A055174-FD4C-40D4-89A1-812DE27B0521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A055174-FD4C-40D4-89A1-812DE27B0521}.Release|Any CPU.Build.0 = Release|Any CPU
-		{24698FB5-2028-4C0C-82AF-37BCD01E931D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24698FB5-2028-4C0C-82AF-37BCD01E931D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24698FB5-2028-4C0C-82AF-37BCD01E931D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24698FB5-2028-4C0C-82AF-37BCD01E931D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F2A4BA9-4DC3-489F-BA5A-C12B19CD673E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F2A4BA9-4DC3-489F-BA5A-C12B19CD673E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F2A4BA9-4DC3-489F-BA5A-C12B19CD673E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{0D715605-644E-458F-9D91-A89319630813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D715605-644E-458F-9D91-A89319630813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D715605-644E-458F-9D91-A89319630813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A708E2D-FFB5-4992-9FF7-5B14E2524273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A708E2D-FFB5-4992-9FF7-5B14E2524273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A708E2D-FFB5-4992-9FF7-5B14E2524273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A708E2D-FFB5-4992-9FF7-5B14E2524273}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
