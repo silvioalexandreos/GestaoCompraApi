@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestaoCompra.Business\GestaoCompra.Core.csproj" />
+    <ProjectReference Include="..\GestaoCompra.Infra\GestaoCompra.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
